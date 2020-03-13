@@ -2,7 +2,7 @@
 
 Instruções de Uso
 
-A - Para utilizar este repositório é preciso baixar e instalar as bibliotecas necessárias:
+Para utilizar este repositório é preciso baixar e instalar as bibliotecas necessárias:
 
     Abra o Prompt de Comando do Windows
     Navegue até a pasta descompactada desse repositório: cd Endereço_da_Pasta
