@@ -7,3 +7,5 @@ Para utilizar este repositório é preciso baixar e instalar as bibliotecas nece
     Abra o Prompt de Comando do Windows
     Navegue até a pasta descompactada desse repositório: cd Endereço_da_Pasta
     Digite: pip install -r requirements.txt 
+    
+Para abrir o jupyter notebook, digite no cmd jupyter notebook.
