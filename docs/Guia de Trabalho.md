@@ -41,7 +41,7 @@
   \
 **Guilherme**
   
-`único` Contar CNPJs válidos  
+`único` ~~Contar CNPJs válidos~~  
 `único` Contar linhas com valores únicos e deprezar repetidos  
 *`comum`* Contar linhas com campos completos e desprezar os invalidados nas análises  
   
