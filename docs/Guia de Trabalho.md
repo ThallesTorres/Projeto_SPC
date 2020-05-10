@@ -3,14 +3,14 @@
 - Os arquivos da SPRINT atual devem ser colocados na respectiva pasta  
 - Nomear os arquivos de análise das tabelas da seguinte forma:  
 ```
-    analise_nome-da-tabela_versao_realizadores
-    analise_FTT_1_guilherme
+    analise_nome-da-tabela
+    analise_STG_FTT_ITT
 ```
 - Indicar no arquivo requirements.txt da respectiva SPRINT, as bibliotecas utilizadas. Se a biblioteca já constar no arquivo, não alterar  
 - Salvar pelos menos uma imagem do gráfico mais importante da análise:  
 ```
     img_nome-da-tabela_numero_.jpg
-    img_FTT_1.jpg
+    img_STG_FTT_ITT_1.jpg
 ```
 - Outras regras surgirão no decorrer das SPRINTs  
 
@@ -59,9 +59,9 @@
 **Thalles / William**
   
 *`comum`* Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas  
-`único` Número de operações por modalidade  
+`único` ~~Número de operações por modalidade~~  
 `único` Valor contratado e saldo devedor por modalidade  
-`único` Número de parcelas por modalidade  
+`único` ~~Número de parcelas por modalidade~~  
   
   \
 **João / Rodrigo**
@@ -69,4 +69,4 @@
 *`comum`* Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas  
 `único` ~~Número de pagamentos por modalidade~~  
 `único` Número de registros vencidos por modalidade  
-`único` Valor total de pagamentos por modalidade
+`único` ~~Valor total de pagamentos por modalidade~~
