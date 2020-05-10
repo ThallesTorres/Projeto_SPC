@@ -1,5 +1,5 @@
 # Guia de Trabalho
-  
+
 - Os arquivos da SPRINT atual devem ser colocados na respectiva pasta  
 - Nomear os arquivos de análise das tabelas da seguinte forma:  
 ```
@@ -12,13 +12,10 @@
     img_nome-da-tabela_numero_.jpg
     img_STG_FTT_ITT_1.jpg
 ```
-- Outras regras surgirão no decorrer das SPRINTs  
-
-
+- Outras regras surgirão no decorrer das SPRINTs
 
 ### O TIME
-  
-  \
+
 **Product Owner:** Guilherme
 ```
     Responsável por:  contatar o cliente, levantar requisitos e estórias do usuário com o cliente,
@@ -31,42 +28,53 @@
                       dar assistência a todos os membros, fazer pontes internas,
                       definir o nível de dificuldade junto ao Product Owner
 ```
-
 **Developers:** Diego, Guilherme, João, Rodrigo, Thalles, William
 
-
-
 ### SPRINT 1 e SPRINT 2
-  
-  \
-**Guilherme**
-  
+
+**Guilherme**  
 `único` ~~Contar CNPJs válidos~~  
 `único` Contar linhas com valores únicos e deprezar repetidos  
 *`comum`* Contar linhas com campos completos e desprezar os invalidados nas análises  
-  
-  \
-**Diego**
-  
-`único` Contar linhas com campos completos e desprezar os invalidados nas análises  
-`único` Contar número de clientes únicos por modalidade  
-`único` Contar número de movimentações por modalidade  
+*`comum`* Verificar recência dos dados
+
+**Diego**  
+*`comum`* Contar linhas com campos completos e desprezar os invalidados nas análises  
+```
+    Parcialmente resolvido, ainda falta analisar a coluna de datas
+```
+*`comum`* Validar as modalidades  
+```
+    Parcialmente resolvido, falta gerar um código para desprezar os códigos invalidados
+```
+*`comum`* Verificar recência dos dados  
+`único` ~~Contar número de clientes únicos por modalidade~~  
+`único` ~~Contar número de movimentações por modalidade~~  
 `único` ~~Valor das parcelas do saldo utilizado por modalidade~~  
-`único` Valor total  das faturas no cartão de crédito  
-`único` Valor mínimo das faturas no cartão de crédito  
-  
-  \
-**Thalles / William**
-  
+`único` ~~Valor total  das faturas no cartão de crédito~~  
+`único` ~~Valor mínimo das faturas no cartão de crédito~~
+
+**Thalles / William**  
 *`comum`* Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas  
+*`comum`* Validar as modalidades  
+*`comum`* Verificar recência dos dados  
 `único` ~~Número de operações por modalidade~~  
 `único` Valor contratado e saldo devedor por modalidade  
-`único` ~~Número de parcelas por modalidade~~  
-  
-  \
-**João / Rodrigo**
-  
+`único` ~~Número de parcelas por modalidade~~
+
+**João / Rodrigo**  
 *`comum`* Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas  
+*`comum`* Validar as modalidades  
+*`comum`* Verificar recência dos dados  
 `único` ~~Número de pagamentos por modalidade~~  
 `único` Número de registros vencidos por modalidade  
 `único` ~~Valor total de pagamentos por modalidade~~
+
+### SPRINT 3
+
+**`novo`** Refinar os gráficos para melhorar visualização  
+```
+    Quebrar gráficos para melhorar a visualização das barras
+```
+**`novo`** Construir interface gráfica  
+**`novo`** Implementar tratamento com a interface  
