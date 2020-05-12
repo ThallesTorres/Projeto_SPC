@@ -102,10 +102,12 @@ Para entender a necessidade do cliente, discutiu-se os possíveis casos de uso d
 ## Diagrama de Caso de Uso
 
 **Diagrama do Administrador:**
+
 ![](https://i.imgur.com/3N5OMN5.jpg)
 
 
 **Diagrama do Funcionário:**
+
 ![](https://i.imgur.com/04Pnz89.jpg)
 
 
