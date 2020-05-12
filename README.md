@@ -21,8 +21,12 @@
  
 # Cronograma
 
+![](https://i.imgur.com/PBrsF9g.jpg)
+
+# Sprints
+
 ## Lista de Histórias de Usuário
-![](https://i.imgur.com/8yAW1bK.png)
+![](https://i.imgur.com/Ls0pD0e.jpg)
 
 ## Histórico das Sprints
 
@@ -92,15 +96,18 @@ Para entender a necessidade do cliente, discutiu-se os possíveis casos de uso d
  - **Administrador**: pessoa que controla a inserção e visualização dos dados e o controle de acesso de usuários à plataforma
  - **Usuário com acesso restrito**: todos os funcionários internos da organização autorizados a visualizar os indicadores de qualidade e negócio, cadastrados pelo administrador
 
-![](https://i.imgur.com/wp7bm38.png)
+![](https://i.imgur.com/gIbZb82.jpg)
+
 
 ## Diagrama de Caso de Uso
 
 **Diagrama do Administrador:**
-![](https://github.com/ThallesTorres/Projeto_SPC/blob/master/casos%20de%20uso/administrador.jpg?raw=true)
+![](https://i.imgur.com/3N5OMN5.jpg)
+
 
 **Diagrama do Funcionário:**
-![](https://github.com/ThallesTorres/Projeto_SPC/blob/master/casos%20de%20uso/usuario%20restrito.jpg?raw=true)
+![](https://i.imgur.com/04Pnz89.jpg)
+
 
 
 ## Backlog do Produto
@@ -111,6 +118,7 @@ O modelo de arquitetura de software poderá ser alterado conforme as necessidade
 
 # Código
 
+**Demonstração da linguagem Python:**
 
 
 
@@ -118,5 +126,7 @@ O modelo de arquitetura de software poderá ser alterado conforme as necessidade
 
 
 
-> Sábado, 9 de Maio de 2020, 21:46  
+
+
+> Sábado, 12 de Maio de 2020, 10:53  
 > feito em [hackmd.io](https://hackmd.io)
