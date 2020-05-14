@@ -1,6 +1,7 @@
 # Projeto Integrador (PI) - 2º ADS - A
 
- 
+![](https://i.imgur.com/fc4ki54.jpg)
+
 
 ## Disciplinas
 
@@ -19,6 +20,17 @@
  - Thalles Santos Torres - RA
  - William Daisuke Honda - RA
  
+ 
+# Demonstração
+
+**Executando no voila:**
+
+![](https://i.imgur.com/h2oChlK.gif)
+
+**Executando no jupyter noteook:**
+
+![](https://i.imgur.com/gUzpOWW.gif)
+
 # Cronograma
 
 ![](https://i.imgur.com/PBrsF9g.jpg)
@@ -102,12 +114,10 @@ Para entender a necessidade do cliente, discutiu-se os possíveis casos de uso d
 ## Diagrama de Caso de Uso
 
 **Diagrama do Administrador:**
-
 ![](https://i.imgur.com/3N5OMN5.jpg)
 
 
 **Diagrama do Funcionário:**
-
 ![](https://i.imgur.com/04Pnz89.jpg)
 
 
@@ -118,17 +128,5 @@ Para entender a necessidade do cliente, discutiu-se os possíveis casos de uso d
 # Arquitetura
 O modelo de arquitetura de software poderá ser alterado conforme as necessidades do projeto, mas a princípio será utilizado o modelo MVC, trabalhando com a linguagem Python nos tratamentos de dados, e a linguagem HTML com framework Boostrap na interface. A escolha do framework Bootstrap, deve-se ao fato desse permitir a construção de uma interface responsiva que pode se adaptar automática a diferentes tipos de suporte.
 
-# Código
-
-**Demonstração da linguagem Python:**
-
-
-
-
-
-
-
-
-
-> Sábado, 12 de Maio de 2020, 10:53  
+> Sábado, 14 de Maio de 2020, 01:00  
 > feito em [hackmd.io](https://hackmd.io)
