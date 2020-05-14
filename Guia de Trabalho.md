@@ -55,11 +55,11 @@
 `único` ~~Valor mínimo das faturas no cartão de crédito~~
 
 **Thalles / William**  
-*`comum`* Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas  
-*`comum`* Validar as modalidades  
+*`comum`* ~~Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas~~  
+*`comum`* ~~Validar as modalidades~~  
 *`comum`* Verificar recência dos dados  
 `único` ~~Número de operações por modalidade~~  
-`único` Valor contratado e saldo devedor por modalidade  
+`único` ~~Valor contratado e saldo devedor por modalidade~~  
 `único` ~~Número de parcelas por modalidade~~
 
 **João / Rodrigo**  
