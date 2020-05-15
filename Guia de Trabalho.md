@@ -34,20 +34,23 @@
 
 **Guilherme**  
 `único` ~~Contar CNPJs válidos~~  
-`único` Contar linhas com valores únicos e deprezar repetidos  
-*`comum`* Contar linhas com campos completos e desprezar os invalidados nas análises  
+```
+    Precisa de revisão, você subiu o arquivo correto?
+    Métricas: preenchimento total, valores válidos, valores inválidos
+```
+`único` Contar nome social e razão social com valores únicos
+```
+    Levantar métricas: valores iguais, valores diferentes, preenchimento total, filtrar com os CNPJs válidos
+```
 *`comum`* Verificar recência dos dados
 
 **Diego**  
-*`comum`* Contar linhas com campos completos e desprezar os invalidados nas análises  
-```
-    Parcialmente resolvido, ainda falta analisar a coluna de datas
-```
-*`comum`* Validar as modalidades  
-```
-    Parcialmente resolvido, falta gerar um código para desprezar os códigos invalidados
-```
+*`comum`* ~~Contar linhas com campos completos e desprezar os invalidados nas análises~~  
+*`comum`* ~~Validar as modalidades~~  
 *`comum`* Verificar recência dos dados  
+```
+    Precisa de revisão
+```
 `único` ~~Contar número de clientes únicos por modalidade~~  
 `único` ~~Contar número de movimentações por modalidade~~  
 `único` ~~Valor das parcelas do saldo utilizado por modalidade~~  
@@ -55,11 +58,11 @@
 `único` ~~Valor mínimo das faturas no cartão de crédito~~
 
 **Thalles / William**  
-*`comum`* Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas  
-*`comum`* Validar as modalidades  
+*`comum`* ~~Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas~~  
+*`comum`* ~~Validar as modalidades~~  
 *`comum`* Verificar recência dos dados  
 `único` ~~Número de operações por modalidade~~  
-`único` Valor contratado e saldo devedor por modalidade  
+`único` ~~Valor contratado e saldo devedor por modalidade~~  
 `único` ~~Número de parcelas por modalidade~~
 
 **João / Rodrigo**  
