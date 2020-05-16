@@ -60,9 +60,12 @@
 **Thalles / William**  
 *`comum`* ~~Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas~~  
 *`comum`* ~~Validar as modalidades~~  
-*`comum`* Verificar recência dos dados  
+*`comum`* __Verificar recência dos dados__  
+```
+    Precisa de revisão
+```
 `único` ~~Número de operações por modalidade~~  
-`único` ~~Valor contratado e saldo devedor por modalidade~~  
+`único` ~~Comparar valor total e valor não pago do contratado da modalidade (C01/Consócio)~~  
 `único` ~~Número de parcelas por modalidade~~
 
 **João / Rodrigo**  
