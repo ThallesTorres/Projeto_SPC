@@ -60,7 +60,7 @@
 **Thalles / William**  
 *`comum`* ~~Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas~~  
 *`comum`* ~~Validar as modalidades~~  
-*`comum`* __Verificar recência dos dados__  
+*`comum`* ~~Verificar recência dos dados~~  
 ```
     Precisa de revisão
 ```
