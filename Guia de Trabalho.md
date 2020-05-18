@@ -30,12 +30,47 @@
 ```
 **Developers:** Diego, Guilherme, João, Rodrigo, Thalles, William
 
-### SPRINT 1 e SPRINT 2
+## SPRINT 3
 
-**Guilherme**  
+### IMPORTANTE:
+>O andamento e as rotas definidas nessa sprint poderão alterar o escopo desse trabalho, com possível redesenho das sprints e das histórias do usuário
+
+**Guilherme**
+**`Teste Principal`** Testar a possibilidade de chamar frames de HTML dentro das páginas
+```
+    Necessário para determinar a utilização do plotly nessa Sprint
+```
+**`Teste Opcional`** Caso não seja possível, testar a possibilidade de gerar HTMLs com a biblioteca Dash
+Desenvolver HTML
+```
+    Conforme layout das páginas (Wireframes) e a padronização das informações
+```
+
+**Diego**
+Padronizar legendas, cores e organização
+Desenvolver layout das informações
+
+**O Time**
+**`atrasado`** Resolver tarefas pendentes da Sprint anterior
+Quebrar gráficos (dividí-los) para melhorar a visualização das informações
+Ver possibilidade de utilização da biblioteca plotly
+```
+    Precisa de teste e aprovação do Guilherme para dar procedimento a essa tarefa
+    (Guilherme testará a possibilidade de chamar frames de HTML dentro das páginas)
+```
+Gerar executável do tratamento dos gráficos
+```
+    IMPORTANTE: Deve ser apenas um para o grupo
+    OPÇÃO 1: Gerar executável que apenas trate os dados, sem interface
+    OPÇÃO 2: Verificar a possibilidade de gerar uma interface que permita a inserção dos dados que serão analisados
+```
+
+## SPRINT 1 e SPRINT 2
+
+**Guilherme (STG_FNT_ITT)**  
 `único` ~~Contar CNPJs válidos~~  
 ```
-    Precisa de revisão, você subiu o arquivo correto?
+    Precisa de revisão
     Métricas: preenchimento total, valores válidos, valores inválidos
 ```
 `único` Contar nome social e razão social com valores únicos
@@ -43,8 +78,12 @@
     Levantar métricas: valores iguais, valores diferentes, preenchimento total, filtrar com os CNPJs válidos
 ```
 *`comum`* Verificar recência dos dados
+*`comum`* ~~Contar linhas com campos completos e desprezar os invalidados nas análises~~  
+```
+    Gerar gráficos apresentando a porcentagem de preenchimento das colunas
+```
 
-**Diego**  
+**Diego (STG_MVT_CRD)**  
 *`comum`* ~~Contar linhas com campos completos e desprezar os invalidados nas análises~~  
 *`comum`* ~~Validar as modalidades~~  
 *`comum`* Verificar recência dos dados  
@@ -57,7 +96,7 @@
 `único` ~~Valor total  das faturas no cartão de crédito~~  
 `único` ~~Valor mínimo das faturas no cartão de crédito~~
 
-**Thalles / William**  
+**Thalles / William (STG_OPR_ITT)**  
 *`comum`* ~~Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas~~  
 *`comum`* ~~Validar as modalidades~~  
 *`comum`* Verificar recência dos dados 
@@ -68,19 +107,16 @@
 `único` ~~Comparar valor total e valor não pago do contratado da modalidade (C01/Consócio)~~  
 `único` ~~Número de parcelas por modalidade~~
 
-**João / Rodrigo**  
+**João / Rodrigo (STG_PGT)**  
 *`comum`* Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas  
-*`comum`* Validar as modalidades  
+*`comum`* Validar as modalidades
+```
+    Código pronto, precisa só aplicar
+```
 *`comum`* Verificar recência dos dados  
+```
+    Código pronto em revisão, mas ainda sem aplicação nessa tabela
+```
 `único` ~~Número de pagamentos por modalidade~~  
 `único` Número de registros vencidos por modalidade  
 `único` ~~Valor total de pagamentos por modalidade~~
-
-### SPRINT 3
-
-**`novo`** Refinar os gráficos para melhorar visualização  
-```
-    Quebrar gráficos para melhorar a visualização das barras
-```
-**`novo`** Construir interface gráfica  
-**`novo`** Implementar tratamento com a interface  
