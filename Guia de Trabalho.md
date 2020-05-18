@@ -14,7 +14,7 @@
 ```
 - Outras regras surgirão no decorrer das SPRINTs
 
-### O TIME
+## O TIME
 
 **Product Owner:** Guilherme
 ```
@@ -35,7 +35,7 @@
 ### IMPORTANTE:
 >O andamento e as rotas definidas nessa sprint poderão alterar o escopo desse trabalho, com possível redesenho das sprints e das histórias do usuário
 
-**Guilherme**
+**Guilherme**  
 **`Teste Principal`** Testar a possibilidade de chamar frames de HTML dentro das páginas
 ```
     Necessário para determinar a utilização do plotly nessa Sprint
@@ -46,11 +46,11 @@ Desenvolver HTML
     Conforme layout das páginas (Wireframes) e a padronização das informações
 ```
 
-**Diego**
+**Diego**  
 Padronizar legendas, cores e organização
 Desenvolver layout das informações
 
-**O Time**
+**O Time**  
 **`atrasado`** Resolver tarefas pendentes da Sprint anterior
 Quebrar gráficos (dividí-los) para melhorar a visualização das informações
 Ver possibilidade de utilização da biblioteca plotly
