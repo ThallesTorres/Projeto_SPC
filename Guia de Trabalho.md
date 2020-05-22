@@ -1,10 +1,24 @@
 # Guia de Trabalho
 
 - Os arquivos da SPRINT atual devem ser colocados na respectiva pasta  
-- Nomear os arquivos de análise das tabelas da seguinte forma:  
+- **NÃO SUBIR ARQUIVOS ANTES DO DIA DA ENTREGA**  
+```
+    Disponibilizar os arquivos no grupo privado do WhatsApp
+    e diretamente com o membro que solicitar
+```
+- **`revogado`** ~~Nomear os arquivos de análise das tabelas da seguinte forma:~~  
 ```
     analise_nome-da-tabela
     analise_STG_FTT_ITT
+```
+- A partir da SPRINT 3, todos os códigos-fontes das análises feitas em jupyter devem ser renomeados da seguinte forma:  
+```
+    RAW_analise_nome-da-tabela
+    RAW_analise_STG_FTT_ITT
+```
+- O código-fonte da aplicação deve ser renomeado da seguinte forma:  
+```
+    RAW_meta_app
 ```
 - Indicar no arquivo requirements.txt da respectiva SPRINT, as bibliotecas utilizadas. Se a biblioteca já constar no arquivo, não alterar  
 - Salvar pelos menos uma imagem do gráfico mais importante da análise:  
@@ -12,7 +26,7 @@
     img_nome-da-tabela_numero_.jpg
     img_STG_FTT_ITT_1.jpg
 ```
-- Outras regras surgirão no decorrer das SPRINTs
+- Outras regras surgirão no decorrer das SPRINTs  
 
 ## O TIME
 
@@ -36,27 +50,29 @@
 >O andamento e as rotas definidas nessa sprint poderão alterar o escopo desse trabalho, com possível redesenho das sprints e das histórias do usuário  
 
 **Guilherme**  
-**`Teste Principal`** Testar a possibilidade de chamar frames de HTML dentro das páginas  
+**`Teste Principal`** ~~Testar a possibilidade de chamar frames de HTML dentro das páginas~~  
 ```
-    Necessário para determinar a utilização do plotly nessa Sprint
+    Teste realizado com sucesso
 ```
-**`Teste Opcional`** Caso não seja possível, testar a possibilidade de gerar HTMLs com a biblioteca Dash  
+**`Teste Opcional`** ~~Testar a possibilidade de gerar HTMLs com a biblioteca Dash~~  
+```
+    Teste realizado com sucesso
+```
 Desenvolver HTML  
 ```
     Conforme layout das páginas (Wireframes) e a padronização das informações
 ```
 
 **Diego**  
-Padronizar legendas, cores e organização  
-Desenvolver layout das informações  
+~~Padronizar legendas, cores e organização~~  
+~~Desenvolver layout das informações~~  
 
 **O Time**  
 **`atrasado`** Resolver tarefas pendentes da Sprint anterior  
 Quebrar gráficos (dividí-los) para melhorar a visualização das informações  
-Ver possibilidade de utilização da biblioteca plotly  
+Utilizar a biblioteca plotly  
 ```
-    Precisa de teste e aprovação do Guilherme para dar procedimento a essa tarefa
-    (Guilherme testará a possibilidade de chamar frames de HTML dentro das páginas)
+    Solicitar modelos com os membros Thalles ou Diego
 ```
 Gerar executável do tratamento dos gráficos  
 ```
@@ -78,6 +94,9 @@ Gerar executável do tratamento dos gráficos
     Levantar métricas: valores iguais, valores diferentes, preenchimento total, filtrar com os CNPJs válidos
 ```
 *`comum`* Verificar recência dos dados  
+```
+    Resolvido, solicitar resolução com os membros Thalles ou Diego
+```
 *`comum`* ~~Contar linhas com campos completos e desprezar os invalidados nas análises~~  
 ```
     Gerar gráficos apresentando a porcentagem de preenchimento das colunas
@@ -86,10 +105,7 @@ Gerar executável do tratamento dos gráficos
 **Diego (STG_MVT_CRD)**  
 *`comum`* ~~Contar linhas com campos completos e desprezar os invalidados nas análises~~  
 *`comum`* ~~Validar as modalidades~~  
-*`comum`* Verificar recência dos dados  
-```
-    Precisa de revisão
-```
+*`comum`* ~~Verificar recência dos dados~~  
 `único` ~~Contar número de clientes únicos por modalidade~~  
 `único` ~~Contar número de movimentações por modalidade~~  
 `único` ~~Valor das parcelas do saldo utilizado por modalidade~~  
@@ -101,7 +117,7 @@ Gerar executável do tratamento dos gráficos
 *`comum`* ~~Validar as modalidades~~  
 *`comum`* Verificar recência dos dados  
 ```
-    Precisa de revisão
+    Resolvido, aguardando arquivo final
 ```
 `único` ~~Número de operações por modalidade~~  
 `único` ~~Comparar valor total e valor não pago do contratado da modalidade (C01/Consócio)~~  
@@ -115,7 +131,7 @@ Gerar executável do tratamento dos gráficos
 ```
 *`comum`* Verificar recência dos dados  
 ```
-    Código pronto em revisão, mas ainda sem aplicação nessa tabela
+    Resolvido, solicitar resolução com os membros Thalles ou Diego
 ```
 `único` ~~Número de pagamentos por modalidade~~  
 `único` Número de registros vencidos por modalidade  
