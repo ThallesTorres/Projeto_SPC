@@ -1,6 +1,17 @@
+# Sprint 1
+
+**Soluções adotadas:**
+
+ - Utilização da linguagem Python
+ - Utilização da biblioteca jupyter notebook para visualizar os dados durante a programação
+
+**Requisitos alcançados:**
+
+![](https://i.imgur.com/9uVsTI2.jpg)
+
 # Instruções de Uso
 
-**AVISO:** Antes de começar você precisa ter em seu computador o programa Python (64 bits) instalado com a opção PATH.
+**AVISO:** Antes de começar você precisa ter em seu computador o programa Python (64 bits) instalado com a opção **PATH**.
 
 ## Instalação
 
@@ -20,15 +31,6 @@ Para utilizar esse repositório é preciso baixar e instalar as bibliotecas nece
 
 ![](https://i.imgur.com/wPJKJUI.gif)
     
-Após a finalização da instalação você, agora vocês tem diversas ferramentas para editar ou visualizar os lotes recebidos do cadastro positivo.  
-
 ## Uso
-Para visualizar basta digitar no prompt de comando: **voila nome_do_arquivo**.
 
->Lembre-se que o prompt deve estar na pasta com o arquivo a ser aberto, bem como, os arquivos desse repositório e os lotes do cadastro positivo.
-
-Após o carregamento uma página será aberta no seu navegador padrão.
-
-![](https://i.imgur.com/DRR0Isv.gif)
-
-Se você deseja editar os arquivos desse repositório digite: **jupyter notebook**.
+Para editar ou visualizar os arquivos desse repositório, digite: **jupyter notebook**.
