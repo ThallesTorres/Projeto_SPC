@@ -14,9 +14,9 @@ Walmir
  - __Product Owner:__ [Guilherme Oliveira Pontes Alvarenga](https://github.com/guilhermeUndy)
  - __Scrum Master:__ [Diego Rodrigo da Silva](https://github.com/diegosilva89)
  - [João Vitor de Oliveira Soeiro](https://github.com/joaosoeiro)
- - Rodrigo Félix da Silva
+ - [Rodrigo Félix da Silva](https://github.com/roodrigofelix)
  - [Thalles Santos Torres](https://github.com/ThallesTorres)
- - William Daisuke Honda
+ - [William Daisuke Honda](https://github.com/Lunix800)
  
 ## O Projeto
 
@@ -28,7 +28,7 @@ SPRINT 1 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/mast
 
 SPRINT 2 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%202))
 
-SPRINT 3 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%203))
+SPRINT 3 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%203)) <=ATUAL
 
 SPRINT 4 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%204))
 
