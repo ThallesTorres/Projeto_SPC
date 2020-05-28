@@ -7,7 +7,7 @@
 
 **Requisitos alcançados:**
 
-![](https://i.imgur.com/9uVsTI2.jpg)
+![](https://i.imgur.com/7S3uxuW.jpg)
 
 # Instruções de Uso
 
