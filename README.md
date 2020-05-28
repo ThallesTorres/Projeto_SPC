@@ -46,6 +46,6 @@ O projeto delimita a utilização do software em dois usuários distintos:
 
 ## Backlog do Produto
 
-![](https://i.imgur.com/EwCDseI.jpg)
+![](https://i.imgur.com/aUV0Q1j.jpg)
 
 > feito em [hackmd.io](https://hackmd.io)
