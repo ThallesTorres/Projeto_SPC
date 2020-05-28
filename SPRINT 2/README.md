@@ -8,7 +8,7 @@
 
 **Requisitos alcançados:**
 
-![](https://i.imgur.com/c9U2UaJ.jpg)
+![](https://i.imgur.com/Op7pO38.jpg)
 
 # Demonstração
 
