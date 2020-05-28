@@ -9,13 +9,9 @@
 
 **Requisitos alcançados:**
 
-![](https://i.imgur.com/m0uJfKW.jpg)
+![](https://i.imgur.com/aUV0Q1j.jpg)
 
 # Demonstração
-
-**Executando a aplicação:**
-
-![](https://i.imgur.com/ZSzsycE.gif)
 
 **Visualização do relatório:**
 
@@ -24,10 +20,6 @@
 **Executando no IDE do python:**
 
 ![](https://i.imgur.com/UQAFL8G.gif)
-
-**Executando no jupyter notebook:**
-
-![](https://i.imgur.com/gUzpOWW.gif)
 
 # Instruções de Uso
 
