@@ -884,6 +884,172 @@ if path.exists('STG_OPR_ITT.xlsx'):
     # DataFrame para validação (esse será usado para validar as modalidades do principal).
     dados_STG_MDL = pd.read_excel('STG_MDL.xlsx') # DataFrame das Modalidades.
 
+    # DataFrame para validação (esse será usado para validar os ID's das fontes do principal).
+    dados_STG_FNT_ITT = pd.read_excel('STG_FNT_ITT.xlsx') # DataFrame das Fontes.
+
+    linhas = dados_STG_OPR_ITT.shape[0] # Pegando o total de linhas.
+    colunas = dados_STG_OPR_ITT.shape[1] # Pegando o total de colunas.
+
+    dados_STG_OPR_ITT.DAT_RSS_FNT_ITT = pd.to_datetime(dados_STG_OPR_ITT.DAT_RSS_FNT_ITT, format='%Y-%m-%d', errors='coerce')
+    dados_STG_OPR_ITT.DAT_INC_DBO = pd.to_datetime(dados_STG_OPR_ITT.DAT_INC_DBO, format='%Y-%m-%d', errors='coerce')
+
+    dict_tipo = {'ID_STG_OPR_ITT': int, 'VLR_CTRD_CSC': float, 'QTD_PCL': int, 'VLR_SDO_DDR': float,
+                 'QTD_CLI_CAD_POS': int, 'QTD_OPR': int, 'ID_FNT_ITT': int, 'ID_MDL': str,
+                 'DES_TIP_PSS': ('F' or 'J'), 'DAT_RSS_FNT_ITT': datetime.date, 'DAT_INC_DBO': datetime.date}
+
+    dict_analise = {}
+
+    for coluna, tipo in dict_tipo.items():
+        
+        dict_analise[coluna] = len([linha for linha in dados_STG_OPR_ITT[coluna] 
+                                    if (type(linha) == tipo) or (linha == tipo) or (isinstance(linha, tipo))])
+                
+
+    total = dados_STG_OPR_ITT.shape[0]
+
+    final = [x * 100 / total for x in dict_analise.values()]
+
+    tipo_review = pd.DataFrame({'Porcentagem': final},
+                               index=dict_analise.keys())
+
+    data = [go.Bar(x = final,
+                   y = [x for x in dict_analise.keys()],
+                   orientation = 'h',
+                   marker=dict(color='#3749E9')
+                  )]
+
+    fig = go.Figure(data=data)
+    fig.update_yaxes(showline=True, linewidth=1, linecolor='#717171')
+    fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='#D9D9DE')
+    fig.update_layout(dict(plot_bgcolor = '#FFFFFF', paper_bgcolor = '#FFFFFF'))
+
+    fig.write_html(pasta + '/opr_tipo.html')
+
+    #Cria um dataframe definido as colunas com dados sensíveis
+    dado_sensivel = ['Não', 'Não', 'Não', 'Não', 'Não', 'Não', 'Sim', 'Não', 'Não', 'Não', 'Não']
+
+    sensibilidade_review = pd.DataFrame({'Dado Sensível': dado_sensivel},
+                                          index = dados_STG_OPR_ITT.columns)
+
+    sensibilidade_review = sensibilidade_review.rename_axis('Colunas', axis = 'columns')
+
+    #Plota em formato tabela e exporta para HTML
+    cores = []
+    for x in range (len (sensibilidade_review)):
+        if x % 2 == 0:
+            cores.append('#DEDEDE')
+        else:
+            cores.append('#ECECEC')
+
+    fig = go.Figure(data=[go.Table(
+        header=dict(values=['<b>Colunas</b>', '<b>Dado Sensível</b>'],
+                    font=dict(color='#707070', size=14),
+                    height=30,
+                    line_color = '#707070',
+                    fill_color='#ECECEC',
+                    align='left'),
+        cells=dict(values=[sensibilidade_review.index,
+                           dado_sensivel],
+                   font=dict(color='#707070', size=14),
+                   height=30,
+                   line_color = '#707070',
+                   fill_color=[cores*2],
+                   align=['left', 'right', 'right', 'right']))
+    ])
+
+    fig.update_layout(xaxis={'categoryorder':'total ascending'})
+
+    fig.write_html(pasta + '/opr_dados_sensiveis.html')
+
+    modalidades = dados_STG_OPR_ITT['ID_MDL'].unique() # Pegando somente os IDs únicos para ser validado.
+
+    # Atribuindo os códigos existentes em uma lista para poder usar o 'in'. 
+    codigos_existentes = [x for x in dados_STG_MDL['COD_MDL']] 
+
+    count_validos_mdl = len([codigo for codigo in modalidades if codigo in codigos_existentes])
+
+    porcentagem_mdl = count_validos_mdl * 100 / len(modalidades)
+
+    fontes = dados_STG_OPR_ITT['ID_FNT_ITT'].unique() # Pegando somente os IDs únicos para ser validado.
+
+    # Atribuindo os códigos existentes em uma lista para poder usar o 'in'. 
+    codigos_existentes = [x for x in dados_STG_FNT_ITT['ID_STG_FNT_ITT']] 
+
+    count_validos_fontes = len([codigo for codigo in fontes if codigo in codigos_existentes])
+
+    porcentagem_fontes = count_validos_fontes * 100 / len(fontes)
+
+    colunas_validar = ['Códigos de Modalidades', 'IDs de Fontes']
+    encontrados = [len(modalidades), len(fontes)]
+    porcentagens = [porcentagem_mdl, porcentagem_fontes]
+
+    correspondencia_review = pd.DataFrame({'Encontrados': encontrados,
+                                           'Correspondência': porcentagens},
+                                          index = colunas_validar)
+    correspondencia_review = correspondencia_review.rename_axis('Colunas', axis='columns')
+
+    #Plota em formato tabela e exporta para HTML
+    cores = []
+    for x in range (len (correspondencia_review)):
+        if x % 2 == 0:
+            cores.append('#DEDEDE')
+        else:
+            cores.append('#ECECEC')
+
+    fig = go.Figure(data=[go.Table(
+        header=dict(values=['<b>Colunas</b>', '<b>Encontrados</b>', '<b>Correspondência</b>'],
+                    font=dict(color='#707070', size=14),
+                    height=30,
+                    line_color = '#707070',
+                    fill_color='#ECECEC',
+                    align='left'),
+        cells=dict(values=[correspondencia_review.index,
+                           correspondencia_review.Encontrados,
+                           correspondencia_review.Correspondência],
+                   font=dict(color='#707070', size=14),
+                   height=30,
+                   line_color = '#707070',
+                   fill_color=[cores*2],
+                   align=['left', 'right', 'right', 'right']))
+    ])
+
+    fig.update_layout(xaxis={'categoryorder':'total ascending'})
+
+    fig.write_html(pasta + '/opr_correspondencia.html')
+
+    # Retirando as colunas VLR_CTRD_CSC e VLR_SDO_DDR para realizar a análise.
+    temp = dados_STG_OPR_ITT.drop(columns = ['VLR_CTRD_CSC', 'VLR_SDO_DDR'])
+
+    # Retirando as linhas com o ID_MDL igual a C01 (consórcio).
+    temp = temp[temp['ID_MDL'] != 'C01'] 
+    analisar = temp.notnull().count() # Contando quantos não são nulos.
+
+    total_linhas = temp.shape[0] # Pegando o total de linhas.
+
+    # Colocando em um dicionário os nomes das colunas e seus respectivos totais de não nulos.
+    # Também transformando os totais em porcentagem.
+    situacao = {x[0] : (x[1] * 100 / total_linhas) for x in analisar.items()}
+
+    # Criando um DataFrame com as informações recolhidas.
+    situacao_plot = pd.DataFrame({'COMPLETUDE (%)' : [x for x in situacao.values()]},
+                                 index = [x for x in situacao.keys()])
+
+    data = go.Bar(x = [x for x in situacao.values()], 
+                  y = [x for x in situacao.keys()], 
+                  orientation = 'h', 
+                  marker = {'color' : '#3749E9'})
+
+    layout = go.Layout(title = '', 
+                       yaxis = {'title': ''}, 
+                       xaxis = {'title': 'Porcentagem da Validação (%)'})
+
+    fig = go.Figure(data = data, layout = layout)
+    fig.update_yaxes(showline = True, linewidth = 1, linecolor = '#717171')
+    fig.update_xaxes(showgrid = True, gridwidth = 1, gridcolor = '#D9D9DE')
+    fig.update_layout({'plot_bgcolor': '#FFFFFF', 'paper_bgcolor': '#FFFFFF'})
+
+    fig.write_html(pasta + "/opr_completude_sem_consorcio.html")
+
     # Copiando o DataFrame principal.
     temp = dados_STG_OPR_ITT.copy()
     # Selecionando somente as linhas com o ID_MDL igual a C01 (consórcio).
@@ -891,7 +1057,6 @@ if path.exists('STG_OPR_ITT.xlsx'):
     analisar = temp.notnull().count() # Contando quantos não são nulos.
 
     total_linhas = temp.shape[0] # Pegando o total de linhas.
-
 
     # Colocando em um dicionário os nomes das colunas e seus respectivos totais de não nulos.
     # Também transformando os totais em porcentagem.
@@ -942,7 +1107,8 @@ if path.exists('STG_OPR_ITT.xlsx'):
 
     colunas = ['VLR_CTRD_CSC', 'VLR_SDO_DDR'] # Colunas a serem convertidas.
 
-    for coluna in colunas:       
+    for coluna in colunas:
+
         for index, antes in enumerate(dados_STG_OPR_ITT[coluna].dropna()):
             depois = antes * 0.01
             dados_STG_OPR_ITT[coluna] = dados_STG_OPR_ITT[coluna].replace(antes, depois) # Trocando o velho pelo novo.
@@ -952,9 +1118,25 @@ if path.exists('STG_OPR_ITT.xlsx'):
 
     for key, value in dictionary.items():
         dictionary[key] = str(value).strip("['']") # Convertendo os valores (em lista) para string.
-
+        
     dados_STG_OPR_ITT['MDL_DESCRICAO'] = [dictionary[resp] for resp in dados_STG_OPR_ITT['ID_MDL']]
 
+    analisar = dados_STG_OPR_ITT[['MDL_DESCRICAO', 'ID_STG_OPR_ITT']]
+
+    mdl_mais_usadas = analisar.groupby('MDL_DESCRICAO').count().sort_values(by = 'ID_STG_OPR_ITT', ascending = False)
+
+    data = [go.Bar(x = mdl_mais_usadas.index,
+                   y = mdl_mais_usadas['ID_STG_OPR_ITT'],
+                   marker = dict(color = '#112244')
+                  )]
+
+    fig = go.Figure(data = data)
+    fig.update_xaxes(showline = True, linewidth = 1, linecolor = '#717171')
+    fig.update_yaxes(showgrid = True, gridwidth = 1, gridcolor = '#D9D9DE')
+    fig.update_layout(dict(plot_bgcolor = '#FFFFFF', paper_bgcolor = '#FFFFFF'))
+    fig.update_layout(showlegend = False)
+
+    fig.write_html(pasta + "/opr_mdl_mais_usadas.html")
 
     analisar = dados_STG_OPR_ITT[['MDL_DESCRICAO', 'QTD_OPR']].dropna()
 
@@ -987,7 +1169,6 @@ if path.exists('STG_OPR_ITT.xlsx'):
 
     soma_parcela_por_mdl = analisar.groupby('MDL_DESCRICAO').sum().sort_values(by = 'QTD_PCL', ascending = False)
 
-
     fig = make_subplots(rows = 1, cols = 2, column_widths = [0.1, 0.4])
 
     fig.add_trace(go.Bar(x = soma_parcela_por_mdl.index[:2],
@@ -1010,7 +1191,6 @@ if path.exists('STG_OPR_ITT.xlsx'):
     fig.update_layout(showlegend = False)
 
     fig.write_html(pasta + "/opr_soma_pcl_por_mdl.html")
-
 
     # Selecionando somente as linhas com o ID_MDL igual a C01 (consórcio).
     analisar = dados_STG_OPR_ITT[dados_STG_OPR_ITT['ID_MDL'] == 'C01'] 
