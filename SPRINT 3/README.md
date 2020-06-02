@@ -1,7 +1,7 @@
 # Sprint 3
 
 ### MVP: 
->Com o Python e todos os requirementos instalados, já é possível visualizar vários indicadores apenas clicando duas veze no arquivo RAW_METAapp.py. Além disso, ainda possibilitamos a utilização dos arquivos jupyter notebook, conforme as Sprints anteriores.
+>Com o Python e todos os requerimentos instalados, já é possível visualizar vários indicadores apenas clicando duas veze no arquivo RAW_METAapp.py. Além disso, ainda possibilitamos a utilização dos arquivos jupyter notebook, conforme as Sprints anteriores.
 
 
 **Soluções adotadas:**
