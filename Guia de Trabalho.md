@@ -44,63 +44,42 @@
 ```
 **Developers:** Diego, Guilherme, João, Rodrigo, Thalles, William
 
-## SPRINT 3
+## SPRINT 4
 
 ### IMPORTANTE:
->O andamento e as rotas definidas nessa sprint poderão alterar o escopo desse trabalho, com possível redesenho das sprints e das histórias do usuário  
+>O trabalho sofreu algumas alterações, nessa sprint faremos alguns ajustes e cortaremos alguns requisitos do produto final  
+
+Corrigir Backlog  
+Corrigir Diagrama de Casos de Uso  
+Desenvolver interface gráfica  
+Atualizar HTML  
+Atualizar executável  
+Realizar testes e corrigir os códigos  
+**`atrasado`** Resolver tarefas pendentes das Sprints anteriores  
+
+## SPRINT 3
 
 **Guilherme**  
 **`Teste Principal`** ~~Testar a possibilidade de chamar frames de HTML dentro das páginas~~  
-```
-    Teste realizado com sucesso
-```
 **`Teste Opcional`** ~~Testar a possibilidade de gerar HTMLs com a biblioteca Dash~~  
-```
-    Teste realizado com sucesso
-```
-Desenvolver HTML  
-```
-    Conforme layout das páginas (Wireframes) e a padronização das informações
-```
+~~Desenvolver HTML~~  
 
 **Diego**  
 ~~Padronizar legendas, cores e organização~~  
 ~~Desenvolver layout das informações~~  
 
 **O Time**  
-**`atrasado`** Resolver tarefas pendentes da Sprint anterior  
-Quebrar gráficos (dividí-los) para melhorar a visualização das informações  
-Utilizar a biblioteca plotly  
-```
-    Solicitar modelos com os membros Thalles ou Diego
-```
-Gerar executável do tratamento dos gráficos  
-```
-    IMPORTANTE: Deve ser apenas um para o grupo
-    OPÇÃO 1: Gerar executável que apenas trate os dados, sem interface
-    OPÇÃO 2: Verificar a possibilidade de gerar uma interface que permita a inserção dos dados que serão analisados
-```
+~~Quebrar gráficos (dividí-los) para melhorar a visualização das informações~~  
+~~Utilizar a biblioteca plotly~~  
+~~Gerar executável do tratamento dos gráficos~~  
 
 ## SPRINT 1 e SPRINT 2
 
 **Guilherme (STG_FNT_ITT)**  
 `único` ~~Contar CNPJs válidos~~  
-```
-    Precisa de revisão
-    Métricas: preenchimento total, valores válidos, valores inválidos
-```
-`único` Contar nome social e razão social com valores únicos  
-```
-    Levantar métricas: valores iguais, valores diferentes, preenchimento total, filtrar com os CNPJs válidos
-```
-*`comum`* Verificar recência dos dados  
-```
-    Resolvido, solicitar resolução com os membros Thalles ou Diego
-```
+`único` ~~Contar nome social e razão social com valores únicos~~  
+*`comum`* ~~Verificar recência dos dados~~  
 *`comum`* ~~Contar linhas com campos completos e desprezar os invalidados nas análises~~  
-```
-    Gerar gráficos apresentando a porcentagem de preenchimento das colunas
-```
 
 **Diego (STG_MVT_CRD)**  
 *`comum`* ~~Contar linhas com campos completos e desprezar os invalidados nas análises~~  
@@ -115,24 +94,15 @@ Gerar executável do tratamento dos gráficos
 **Thalles / William (STG_OPR_ITT)**  
 *`comum`* ~~Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas~~  
 *`comum`* ~~Validar as modalidades~~  
-*`comum`* Verificar recência dos dados  
-```
-    Resolvido, aguardando arquivo final
-```
+*`comum`* ~~Verificar recência dos dados~~  
 `único` ~~Número de operações por modalidade~~  
 `único` ~~Comparar valor total e valor não pago do contratado da modalidade (C01/Consócio)~~  
 `único` ~~Número de parcelas por modalidade~~  
 
 **João / Rodrigo (STG_PGT)**  
-*`comum`* Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas  
-*`comum`* Validar as modalidades  
-```
-    Código pronto, precisa só aplicar
-```
-*`comum`* Verificar recência dos dados  
-```
-    Resolvido, solicitar resolução com os membros Thalles ou Diego
-```
+*`comum`* ~~Contar número de linhas com todos os campos preenchidos e deprezar na análise as invalidadas~~  
+*`comum`* ~~Validar as modalidades~~  
+*`comum`* ~~Verificar recência dos dados~~  
 `único` ~~Número de pagamentos por modalidade~~  
-`único` Número de registros vencidos por modalidade  
+`único` ~~Número de registros vencidos por modalidade~~  
 `único` ~~Valor total de pagamentos por modalidade~~  
