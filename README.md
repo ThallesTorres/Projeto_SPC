@@ -22,6 +22,10 @@ Walmir
 
 O objetivo desse projeto é construir um sistema que adeque-se ao Cadastro Positivo, garantindo qualidade dos dados, uso adequado e geração de valor.
 
+## Proposta
+
+Desenvolver um executável com interface gráfica que analise os arquivos XLSX recebidos e gere relatórios com indicadores de qualidade das tabelas e de negócios baseados nas informações de movimentação de crédito
+
 ## As Sprints
 
 SPRINT 1 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%201))
