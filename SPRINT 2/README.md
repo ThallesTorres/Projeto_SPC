@@ -1,5 +1,8 @@
 # Sprint 2
 
+### MVP:
+>O usuário consegue visualizar alguns indicadores já obtidos através da leitura dos arquivos notebooks desenvolvidos pelo time, bastando apenas executar o voila, e se o usuário possuir algum conhecimento em programação basta abrir o jupyter notebook e editar ou criar novas células com códigos de programção. Para utilizar qualquer um dos recursos é necessário seguir estritamente o passo a passo de instalação abaixo.
+
 **Soluções adotadas:**
 
  - Utilização da linguagem Python
@@ -46,12 +49,12 @@ Para utilizar esse repositório é preciso baixar e instalar as bibliotecas nece
 
 Há duas possibilidades de uso: **modo edição** ou **modo visualização**.  
 
-Para **visualizar** basta digitar no prompt de comando: **voila nome_do_arquivo**.
+Para **visualizar** basta digitar no prompt de comando: **voila nome_do_arquivo**.  
 
 >Lembre-se que o prompt deve estar na pasta com o arquivo a ser aberto, bem como, os arquivos desse repositório e os lotes do cadastro positivo.
 
-Após o carregamento uma página será aberta no seu navegador padrão.
+Após o carregamento uma página será aberta no seu navegador padrão.  
 
 ![](https://i.imgur.com/DRR0Isv.gif)
 
-Se você deseja **editar** os arquivos desse repositório, digite: **jupyter notebook**.
+Se você deseja **editar** os arquivos desse repositório, digite: **jupyter notebook**. Para começar a tratar os dados, **selecione a célula**, e clique no botão com o símbolo **Play**. Execute célula por célula na ordem apresentada e não execute qualquer célula fora da ordem. Caso execute, retorne a primeira célula e execute todas as células novamente.  
