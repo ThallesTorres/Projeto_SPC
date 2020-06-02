@@ -1,5 +1,8 @@
 # Sprint 1
 
+### MVP:
+>O usuário consegue visualziar alguns indicadores já obtidos através da leitura dos arquivos notebooks desenvolvidos pelo time. É necessário, no entanto, seguir estritamente o passo a passo de instalação abaixo.
+
 **Soluções adotadas:**
 
  - Utilização da linguagem Python
@@ -33,4 +36,4 @@ Para utilizar esse repositório é preciso baixar e instalar as bibliotecas nece
     
 ## Uso
 
-Para editar ou visualizar os arquivos desse repositório, digite: **jupyter notebook**.
+Para editar ou visualizar os arquivos desse repositório, digite: **jupyter notebook**. Para começar a tratar os dados, **selecione a célula**, e clique no botão com o símbolo **Play**. Execute célula por célula na ordem apresentada e não execute qualquer célula fora da ordem. Caso execute, retorne a primeira célula e execute todas as células novamente.  
