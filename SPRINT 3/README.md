@@ -1,5 +1,9 @@
 # Sprint 3
 
+### MVP: 
+>Com o Python e todos os requirementos instalados, já é possível visualizar vários indicadores apenas clicando duas veze no arquivo RAW_METAapp.py. Além disso, ainda possibilitamos a utilização dos arquivos jupyter notebook, conforme as Sprints anteriores.
+
+
 **Soluções adotadas:**
 
  - Desenvolvimento da interface dos relatórios em documento HTML
@@ -41,10 +45,10 @@ Para utilizar esse repositório é preciso baixar e instalar as bibliotecas nece
 
 Disponibilizamos duas formas de uso: **python** ou **jupyter notebook**.  
 
-Para executar no **python** basta abrir o arquivo **METAapp.py** clicando duas vezes.  
+Para executar no **python** basta abrir o arquivo **RAW_METAapp.py** clicando duas vezes.  
 
 Para abrir o **jupyter notebook** e editar os arquivos **IPYNB**, basta digitar no prompt de comando: **jupyter notebook**.  
 
 >Lembre-se que o prompt deve estar na pasta com o arquivos ipynb e lotes do cadastro positivo.
 
-Após o carregamento uma página será aberta no seu navegador padrão.
+Após o carregamento uma página será aberta no seu navegador padrão. Para começar a tratar os dados, abra um dos arquivos notebooks, **selecione a célula**, e clique no botão com o símbolo **Play**. Execute célula por célula na ordem apresentada e não execute qualquer célula fora da ordem. Caso execute, retorne a primeira célula e execute todas as células novamente.  
