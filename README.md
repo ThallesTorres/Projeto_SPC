@@ -24,7 +24,7 @@ O objetivo desse projeto é construir um sistema que adeque-se ao Cadastro Posit
 
 ## Proposta
 
-Desenvolver um executável com interface gráfica que analise os arquivos XLSX recebidos e gere relatórios com indicadores de qualidade das tabelas e de negócios baseados nas informações de movimentação de crédito
+Desenvolver um executável com interface gráfica que analise os arquivos XLSX recebidos e gere relatórios com indicadores de qualidade sobre a qualidade das tabelas e indicadores de negócios com base nas informações de movimentação de crédito da remessa.
 
 ## As Sprints
 
