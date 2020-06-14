@@ -10,7 +10,7 @@
  - Desenvolvimento da interface dos relatórios em documento HTML
  - Executável feito em Python com a biblioteca cx_freeze
  - Adoção de gráficos em formato interativo com a biblioteca plotly
- - Todos os códigos dessa sprint estão na pasta codigos_desenvolvidos, para editá-los ou visualizá-los, siga o passa a passo das sprints anteriores
+ - Todos os códigos dessa sprint estão na pasta codigos_desenvolvidos, para editá-los ou visualizá-los, siga o passo a passo das sprints anteriores
 
 **Requisitos alcançados:**
 
