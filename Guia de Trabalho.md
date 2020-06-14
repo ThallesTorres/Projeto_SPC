@@ -6,26 +6,7 @@
     Disponibilizar os arquivos no grupo privado do WhatsApp
     e diretamente com o membro que solicitar
 ```
-- **`revogado`** ~~Nomear os arquivos de análise das tabelas da seguinte forma:~~  
-```
-    analise_nome-da-tabela
-    analise_STG_FTT_ITT
-```
-- A partir da SPRINT 3, todos os códigos-fontes das análises feitas em jupyter devem ser renomeados da seguinte forma:  
-```
-    RAW_analise_nome-da-tabela
-    RAW_analise_STG_FTT_ITT
-```
-- O código-fonte da aplicação deve ser renomeado da seguinte forma:  
-```
-    RAW_meta_app
-```
 - Indicar no arquivo requirements.txt da respectiva SPRINT, as bibliotecas utilizadas. Se a biblioteca já constar no arquivo, não alterar  
-- Salvar pelos menos uma imagem do gráfico mais importante da análise:  
-```
-    img_nome-da-tabela_numero_.jpg
-    img_STG_FTT_ITT_1.jpg
-```
 - Outras regras surgirão no decorrer das SPRINTs  
 
 ## O TIME
@@ -49,13 +30,12 @@
 ### IMPORTANTE:
 >O trabalho sofreu algumas alterações, nessa sprint faremos alguns ajustes e cortaremos alguns requisitos do produto final  
 
-Corrigir Backlog  
+~~Corrigir Backlog~~~~Corrigir Backlog~~  
 Corrigir Diagrama de Casos de Uso  
-Desenvolver interface gráfica  
-Atualizar HTML  
-Atualizar executável  
-Realizar testes e corrigir os códigos  
-**`atrasado`** Resolver tarefas pendentes das Sprints anteriores  
+~~Desenvolver interface gráfica~~  
+~~Atualizar HTML~~  
+~~Atualizar executável~~  
+~~Realizar testes e corrigir os códigos~~  
 
 ## SPRINT 3
 
