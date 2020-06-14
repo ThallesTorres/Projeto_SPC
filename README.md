@@ -32,9 +32,9 @@ SPRINT 1 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/mast
 
 SPRINT 2 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%202))
 
-SPRINT 3 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%203)) <=ATUAL
+SPRINT 3 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%203))
 
-SPRINT 4 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%204))
+SPRINT 4 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%204)) <=ATUAL
 
 SPRINT 5 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%205))
 
