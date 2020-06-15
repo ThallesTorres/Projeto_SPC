@@ -5,7 +5,6 @@
 ## Disciplinas
 
  - __Sistemas de Informação:__ profº José Walmir Gonçalves Duque
-Walmir
  - __Engenharia de Software I:__ profº Giuliano Araujo Bertoti 
  - __Linguagem de Programação:__ profª Juliana Forin Pasquini Martinez
 
