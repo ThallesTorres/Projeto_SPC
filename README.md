@@ -39,7 +39,7 @@ SPRINT 5 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/mast
 
 SPRINT 6 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%206))
 
-## Para que quem?
+## Para quem?
 O produto destina-se a dois tipos diferentes de usuário, sendo eles, funcionários das próprias fontes que obtém os dados:
 
 1. **Analista responsável:** O primeiro é o analista ténico e responsável pela gestão das informações da tabela, que utilizará o software para gerar os relatórios sobre a qualidade geral das tabelas de dados e sobre os resultados alcançados na remessa analisada. A explicação sobre esses relatórios está logo abaixo.
