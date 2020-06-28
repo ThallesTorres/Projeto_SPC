@@ -25,13 +25,26 @@
 ```
 **Developers:** Diego, Guilherme, João, Rodrigo, Thalles, William
 
+## SPRINT 6
+
+Desenvolver identidade gráfica do produto  
+Atualizar HTML  
+Atualizar executável  
+Realizar testes e corrigir os códigos  
+
+## SPRINT 5
+
+~~Corrigir Backlog~~  
+~~Gerar indicar sobre número de movimentações, operações e pagamentos por clientes~~  
+~~Desenvolver índice sobre o número de pagamentos por clientes~~  
+~~Atualizar HTML~~  
+~~Atualizar executável~~  
+~~Realizar testes e corrigir os códigos~~  
+
 ## SPRINT 4
 
-### IMPORTANTE:
->O trabalho sofreu algumas alterações, nessa sprint faremos alguns ajustes e cortaremos alguns requisitos do produto final  
-
-~~Corrigir Backlog~~~~Corrigir Backlog~~  
-Corrigir Diagrama de Casos de Uso  
+~~Corrigir Backlog~~  
+~~Corrigir Diagrama de Casos de Uso~~  
 ~~Desenvolver interface gráfica~~  
 ~~Atualizar HTML~~  
 ~~Atualizar executável~~  
