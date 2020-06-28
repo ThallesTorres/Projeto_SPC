@@ -33,9 +33,9 @@ SPRINT 2 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/mast
 
 SPRINT 3 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%203))
 
-SPRINT 4 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%204)) <=ATUAL
+SPRINT 4 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%204)) 
 
-SPRINT 5 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%205))
+SPRINT 5 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%205)) <=ATUAL
 
 SPRINT 6 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%206))
 
@@ -62,6 +62,6 @@ Com o relatório de resultados da remessa, o setor administrativo poderá avalia
 
 ## Backlog do Produto
 
-![](https://i.imgur.com/BtjKLRD.jpg)
+![](https://i.imgur.com/uZfYzx2.jpg)
 
 > feito em [hackmd.io](https://hackmd.io)
