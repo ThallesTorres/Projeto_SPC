@@ -1,7 +1,7 @@
 # Sprint 1
 
 ### MVP:
->O usuário consegue visualziar alguns indicadores já obtidos através da leitura dos arquivos notebooks desenvolvidos pelo time. É necessário, no entanto, seguir estritamente o passo a passo de instalação abaixo.
+>O usuário consegue visualizar alguns indicadores já obtidos através da leitura dos arquivos notebooks desenvolvidos pelo time. É necessário, no entanto, seguir estritamente o passo a passo de instalação abaixo.
 
 **Soluções adotadas:**
 
@@ -10,7 +10,7 @@
 
 **Requisitos alcançados:**
 
-![](https://i.imgur.com/7S3uxuW.jpg)
+![](https://i.imgur.com/PrMUCUV.jpg)
 
 # Instruções de Uso
 
@@ -18,7 +18,7 @@
 
 ## Instalação
 
-Para utilizar esse repositório é preciso baixar e instalar as bibliotecas necessárias, siga o passa a passo a seguir:
+Para utilizar esse repositório é preciso baixar e instalar as bibliotecas necessárias, siga o passo a passo a seguir:
 
 1. Baixe os arquivos dessa pasta e armazene-os em uma nova pasta em seu computador, inclua também nessa pasta os lotes do cadastro positivo que você deseja analisar;
 
