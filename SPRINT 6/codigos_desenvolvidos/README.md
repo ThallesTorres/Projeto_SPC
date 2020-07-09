@@ -33,11 +33,11 @@ Após o carregamento uma página será aberta no seu navegador padrão. Para com
 **IMPORTANTE:** É necessário navegar até a pasta com o arquivo setup.py para realizar qualquer um dos procedimentos abaixo.
 
 Abra o prompt de comando, navegue até essa pasta e digite linha por linha dos comandos abaixo e aguardando a finalização:  
-> py -m pip install --user virtualenv
-> py -m venv env
-> .\env\Scripts\activate
-> pip install -r requirements.txt
-> python setup.py build
+> py -m pip install --user virtualenv  
+> py -m venv env  
+> .\env\Scripts\activate  
+> pip install -r requirements.txt  
+> python setup.py build  
 
 # Linha de comando para limpar todos os packages instalados no sistema
 
