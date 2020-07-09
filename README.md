@@ -56,7 +56,7 @@ A missão do software é analisar as tabelas e gerar dois tipos de relatórios:
 de valores movimentados, número e valores totais de pagamentos, número de clientes, operações e movimentações, bem como os totais por cada modalidade de crédito também apresentados através de indicadores gerais (porcentagens ou valores totais) e em forma de gráficos sobre cada modalidade.
 
 ## Para que serve o produto?
-Com o relatório de qualidade geral das tabelas, o analista pode tomar a decisão baseada na porcentagem de preenchimento e de validação obtidas, se aqueles dados estão nas diretrizes de qualidade da instituição e posteriomente encaminhá-los para o SPC ou encaminhar para o administrativo os relatórios com os resultados da remessa para verificar se as metas de negócio foram atingidas.
+Com o relatório de qualidade geral das tabelas, o analista pode tomar a decisão baseada na porcentagem de preenchimento e de validação obtidas, se aqueles dados estão nas diretrizes de qualidade da instituição e posteriomente encaminhá-los para o banco de dados do cadastro positivo ou encaminhar para o administrativo os relatórios com os resultados da remessa para verificar se as metas de negócio foram atingidas.
 
 Com o relatório de resultados da remessa, o setor administrativo poderá avaliar os totais gerais e os totais por modalidades obtidos e verificar se os valores estão dentro das metas estabelecidas pela gerência para aquele período analisado.
 
