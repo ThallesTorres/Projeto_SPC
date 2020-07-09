@@ -27,10 +27,10 @@
 
 ## SPRINT 6
 
-Desenvolver identidade gráfica do produto  
-Atualizar HTML  
-Atualizar executável  
-Realizar testes e corrigir os códigos  
+~~Desenvolver identidade gráfica do produto~~  
+~~Atualizar HTML~~  
+~~Atualizar executável~~  
+~~Realizar testes e corrigir os códigos~~  
 
 ## SPRINT 5
 
