@@ -14,7 +14,7 @@
 
 **Requisitos alcançados:**
 
-![](https://i.imgur.com/wO8ano4.jpg)
+![](https://i.imgur.com/PrMUCUV.jpg)
 
 # Demonstração
 
