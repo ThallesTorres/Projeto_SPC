@@ -1,0 +1,7 @@
+cx_freeze
+pandas
+numpy
+plotly
+xlrd
+jinja2
+jupyter
