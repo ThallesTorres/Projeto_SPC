@@ -1,6 +1,6 @@
 # Projeto Integrador (PI) - 2º ADS - A
 
-![](https://i.imgur.com/fc4ki54.jpg)
+![](https://i.imgur.com/ZfZWCEm.png)
 
 ## Disciplinas
 
@@ -23,7 +23,7 @@ O objetivo desse projeto é construir um sistema que adeque-se ao Cadastro Posit
 
 ## Proposta
 
-Desenvolver um executável com interface gráfica que analise os **arquivos XLSX** do cadastro positivo e gere relatórios com indicadores sobre a qualidade das tabelas e indicadores de negócios com base nas informações de movimentação de crédito da remessa. O programa é destinado para que as fontes analisem facilmente os dados gerados pelo cadastro positivo e avaliem se estão adequados para ser enviados para o SPC e ou compartilhados dentro de suas insituições para posteriores avaliações de outros setores.
+Desenvolver um executável com interface gráfica que analise os **arquivos XLSX** do cadastro positivo e gere relatórios com indicadores sobre a qualidade das tabelas e indicadores de negócios com base nas informações de movimentação de crédito da remessa. O programa é destinado para que as fontes analisem facilmente os dados coletados do cadastro positivo e avaliem se estão adequados para ser enviados para sereme armazenados no banco de dados e ou compartilhados dentro de suas instituições para posteriores avaliações de outros setores.
 
 ## As Sprints
 
@@ -35,9 +35,9 @@ SPRINT 3 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/mast
 
 SPRINT 4 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%204)) 
 
-SPRINT 5 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%205)) <=ATUAL
+SPRINT 5 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%205)) 
 
-SPRINT 6 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%206))
+SPRINT 6 ([Link da Pasta](https://github.com/ThallesTorres/Projeto_SPC/tree/master/SPRINT%206)) <=ATUAL
 
 ## Para quem?
 O produto destina-se a dois tipos diferentes de usuário, sendo eles, funcionários das próprias fontes que obtém os dados:
@@ -45,7 +45,7 @@ O produto destina-se a dois tipos diferentes de usuário, sendo eles, funcionár
 1. **Analista responsável:** O primeiro é o analista ténico e responsável pela gestão das informações da tabela, que utilizará o software para gerar os relatórios sobre a qualidade geral das tabelas de dados e sobre os resultados alcançados na remessa analisada. A explicação sobre esses relatórios está logo abaixo.
 2. **Colaborador:** O segundo tipo de usuário é aquele para quem o analista irá encaminhar os relatórios de resultados da remessa gerados, podendo ser um funcionário do setor administrativo ou do setor de marketing.
 
-![](https://i.imgur.com/rvZATpn.jpg)
+![](https://i.imgur.com/qntHGQD.jpg)
 
 ## Os relatórios:
 A missão do software é analisar as tabelas e gerar dois tipos de relatórios:
@@ -62,6 +62,6 @@ Com o relatório de resultados da remessa, o setor administrativo poderá avalia
 
 ## Backlog do Produto
 
-![](https://i.imgur.com/uZfYzx2.jpg)
+![](https://i.imgur.com/PrMUCUV.jpg)
 
 > feito em [hackmd.io](https://hackmd.io)
