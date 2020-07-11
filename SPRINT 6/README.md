@@ -1,7 +1,7 @@
 # Sprint 6
 
 ### Produto Final: 
->Nessa sprint, apresentamos uma aplicação sem necessidade de instalação e com uma interface amigável. Abaixo apresentamos os benefícios gerados pela aplicação.
+>Nessa sprint, apresentamos uma aplicação sem necessidade de instalação e com uma interface amigável. Baixe o repositório ou se preferir baixe essa versão diretamente desse link: [https://drive.google.com/file/d/1QN7DHXHW3LQXIf5wg6kZnjOomnOE5SOs/view?usp=sharing](https://drive.google.com/file/d/1QN7DHXHW3LQXIf5wg6kZnjOomnOE5SOs/view?usp=sharing). Abaixo apresentamos os benefícios gerados pela aplicação.
 
 ![](https://i.imgur.com/gFYhzp7.png)
 
@@ -20,6 +20,7 @@
 
 **Executando o METAapp:**
 
+![](https://i.imgur.com/SKwXzmw.gif)
 
 **Visualização do relatório:**
 
