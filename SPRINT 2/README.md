@@ -1,7 +1,7 @@
 # Sprint 2
 
 ### MVP:
->O usuário consegue visualizar alguns indicadores já obtidos através da leitura dos arquivos notebooks desenvolvidos pelo time, bastando apenas executar o voila, e se o usuário possuir algum conhecimento em programação basta abrir o jupyter notebook e editar ou criar novas células com códigos de programção. Para utilizar qualquer um dos recursos é necessário seguir estritamente o passo a passo de instalação abaixo.
+>O usuário consegue visualizar alguns indicadores já obtidos através da leitura dos arquivos notebooks desenvolvidos pelo time, bastando apenas executar o voila, e se o usuário possuir algum conhecimento em programação basta abrir o jupyter notebook e editar ou criar novas células com códigos de programação. Para utilizar qualquer um dos recursos é necessário seguir estritamente o passo a passo de instalação abaixo.
 
 **Soluções adotadas:**
 
@@ -11,7 +11,7 @@
 
 **Requisitos alcançados:**
 
-![](https://i.imgur.com/Op7pO38.jpg)
+![](https://i.imgur.com/PrMUCUV.jpg)
 
 # Demonstração
 
@@ -29,7 +29,7 @@
 
 ## Instalação
 
-Para utilizar esse repositório é preciso baixar e instalar as bibliotecas necessárias, siga o passa a passo a seguir:
+Para utilizar esse repositório é preciso baixar e instalar as bibliotecas necessárias, siga o passo a passo a seguir:
 
 1. Baixe os arquivos dessa pasta e armazene-os em uma nova pasta em seu computador, inclua também nessa pasta os lotes do cadastro positivo que você deseja analisar;
 

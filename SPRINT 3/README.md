@@ -1,7 +1,7 @@
 # Sprint 3
 
 ### MVP: 
->Com o Python e todos os requerimentos instalados, já é possível visualizar vários indicadores apenas clicando duas veze no arquivo RAW_METAapp.py. Além disso, ainda possibilitamos a utilização dos arquivos jupyter notebook, conforme as Sprints anteriores.
+>Com o Python e todos os requerimentos instalados, já é possível visualizar vários indicadores apenas clicando duas vezes no arquivo METAapp.py. Além disso, ainda possibilitamos a utilização dos arquivos jupyter notebook, conforme as Sprints anteriores.
 
 
 **Soluções adotadas:**
@@ -13,7 +13,7 @@
 
 **Requisitos alcançados:**
 
-![](https://i.imgur.com/aUV0Q1j.jpg)
+![](https://i.imgur.com/PrMUCUV.jpg)
 
 # Demonstração
 
@@ -31,7 +31,7 @@
 
 ## Instalação
 
-Para utilizar esse repositório é preciso baixar e instalar as bibliotecas necessárias, siga o passa a passo a seguir:
+Para utilizar esse repositório é preciso baixar e instalar as bibliotecas necessárias, siga o passo a passo a seguir:
 
 1. Baixe os arquivos dessa pasta e armazene-os em uma nova pasta em seu computador, inclua também nessa pasta os lotes do cadastro positivo que você deseja analisar;
 
@@ -45,7 +45,7 @@ Para utilizar esse repositório é preciso baixar e instalar as bibliotecas nece
 
 Disponibilizamos duas formas de uso: **python** ou **jupyter notebook**.  
 
-Para executar no **python** basta abrir o arquivo **RAW_METAapp.py** clicando duas vezes.  
+Para executar no **python** basta abrir o arquivo **METAapp.py** clicando duas vezes.  
 
 Para abrir o **jupyter notebook** e editar os arquivos **IPYNB**, basta digitar no prompt de comando: **jupyter notebook**.  
 
